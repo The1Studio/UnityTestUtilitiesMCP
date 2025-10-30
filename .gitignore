@@ -1,0 +1,26 @@
+# Unity generated
+*.meta
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.user
+*.userprefs
+*.sln
+*.csproj
+
+# Build artifacts
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Never ignore .meta files for package content
+!*.asmdef.meta

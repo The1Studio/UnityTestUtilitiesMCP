@@ -1,0 +1,26 @@
+{
+    "name": "UnityTestUtilitiesMCP.Editor",
+    "rootNamespace": "TheOneStudio.UnityTestUtilitiesMCP.Editor",
+    "references": [
+        "MCPForUnity.Editor",
+        "UnityEditor.TestRunner",
+        "UnityEngine.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.testtools.codecoverage",
+            "expression": "1.0.0",
+            "define": "UNITY_CODE_COVERAGE"
+        }
+    ],
+    "noEngineReferences": false
+}

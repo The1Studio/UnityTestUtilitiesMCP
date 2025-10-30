@@ -1,0 +1,24 @@
+{
+  "name": "com.the1studio.unity-test-utilities-mcp",
+  "version": "1.0.0",
+  "displayName": "Unity Test Utilities for MCP",
+  "description": "Advanced testing utilities for Unity MCP including code coverage, test filtering, and result analysis. Extends com.coplaydev.unity-mcp with additional testing capabilities.",
+  "unity": "2022.3",
+  "keywords": [
+    "testing",
+    "test-runner",
+    "code-coverage",
+    "mcp",
+    "unity-mcp",
+    "ai",
+    "automation"
+  ],
+  "author": {
+    "name": "The1Studio",
+    "url": "https://github.com/The1Studio"
+  },
+  "dependencies": {
+    "com.coplaydev.unity-mcp": "6.0.0",
+    "com.unity.test-framework": "1.4.0"
+  }
+}
