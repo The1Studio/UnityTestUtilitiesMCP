@@ -37,6 +37,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Dependency on Unity Test Framework 1.4.0+
 - Optional integration with Code Coverage package 1.0.0+
 
+### Testing
+- Comprehensive unit test suite with 59 tests
+- Test coverage for all services:
+  - `CoverageServiceTests` (11 tests): Enable/disable, start/stop recording, EditorPrefs persistence
+  - `TestFilterServiceTests` (12 tests): Mode filtering, category/assembly filtering, pattern matching
+  - `TestResultsServiceTests` (10 tests): File location, XML parsing, failure detail extraction
+- Test coverage for MCP tools:
+  - `EnableCodeCoverageTests` (10 tests): Parameter handling, validation, conditional compilation
+  - `RunFilteredTestsTests` (16 tests): Mode selection, filtering, regex patterns, error handling
+- Test assembly definition with proper configuration
+- Conditional tests for optional Code Coverage package
+- Platform-specific test scenarios (Linux/Mac/Windows)
+
 ### Documentation
 - Comprehensive README.md with installation and usage instructions
 - Complete API reference documentation
